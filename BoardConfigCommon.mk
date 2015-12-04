@@ -43,8 +43,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13747929088 # 13747945472 - 16384 for cryp
 #BOARD_USERDATAIMAGE_PARTITION_SIZE := 3221225472
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/oppo/find7-common/init/init_find7.cpp
+TARGET_INIT_VENDOR_LIB := libinit_find7
+TARGET_NEEDS_PRE_INIT := true
 
 # Properties
 TARGET_SYSTEM_PROP += device/oppo/find7-common/system.prop
