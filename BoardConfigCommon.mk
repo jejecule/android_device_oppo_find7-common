@@ -53,4 +53,5 @@ TARGET_SYSTEM_PROP += device/oppo/find7-common/system.prop
 TARGET_RECOVERY_FSTAB := device/oppo/find7-common/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
+-include vendor/oppo/find7/BoardConfigVendor.mk
 -include vendor/oppo/find7-common/BoardConfigVendor.mk
