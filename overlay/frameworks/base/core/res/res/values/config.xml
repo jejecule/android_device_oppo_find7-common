@@ -87,4 +87,7 @@
 
     <!-- Default value for led color when battery is fully charged -->
     <integer name="config_notificationsBatteryFullARGB">0xff0000ff</integer>
+    
+    <!-- Boolean to show HW keys enable/disbale option -->
+    <bool name="config_hwKeysPref">true</bool>
 </resources>
